@@ -5,7 +5,7 @@
 # - add license
 #
 Summary:	Additional freedesktop.org standard compliant icons
-Summary(pl):	Dodatkowe ikony implementuj±ce standard freedesktop.org
+Summary(pl.UTF-8):   Dodatkowe ikony implementujÄ…ce standard freedesktop.org
 Name:		tango-icon-theme-extras
 Version:	0.1.0
 Release:	0.1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Additional freedesktop.org standard compliant icons.
 
-%description -l pl
-Dodatkowe ikony implementuj±ce standard freedesktop.org.
+%description -l pl.UTF-8
+Dodatkowe ikony implementujÄ…ce standard freedesktop.org.
 
 %prep
 %setup -q
