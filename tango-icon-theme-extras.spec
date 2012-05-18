@@ -1,14 +1,13 @@
 #
 # TODO:
 # - better summary and descriptions
-# - check why 24x24 and scalable icon sets don't build correctly
 # - add license
 #
 Summary:	Additional freedesktop.org standard compliant icons
 Summary(pl.UTF-8):	Dodatkowe ikony implementujące standard freedesktop.org
 Name:		tango-icon-theme-extras
 Version:	0.1.0
-Release:	0.1
+Release:	1
 License:	Creative Commons License (see COPYING)
 Group:		Themes
 Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.gz
@@ -32,7 +31,8 @@ Dodatkowe ikony implementujące standard freedesktop.org.
 %setup -q
 
 %build
-%configure
+%configure \
+	--enable-png-creation
 %{__make}
 
 %install
