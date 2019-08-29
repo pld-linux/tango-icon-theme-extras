@@ -16,7 +16,7 @@ URL:		http://tango-project.org/Tango_Desktop_Project
 BuildRequires:	ImageMagick-coder-png
 BuildRequires:	ImageMagick-devel
 BuildRequires:	icon-naming-utils >= 0.7.2
-BuildRequires:	librsvg
+BuildRequires:	librsvg-devel
 BuildRequires:	pkgconfig
 Requires:	tango-icon-theme
 BuildArch:	noarch
