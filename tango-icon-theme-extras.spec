@@ -7,7 +7,7 @@ Summary:	Additional freedesktop.org standard compliant icons
 Summary(pl.UTF-8):	Dodatkowe ikony implementujące standard freedesktop.org
 Name:		tango-icon-theme-extras
 Version:	0.1.0
-Release:	2
+Release:	3
 License:	Creative Commons License (see COPYING)
 Group:		Themes
 Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.gz
@@ -16,6 +16,7 @@ URL:		http://tango-project.org/Tango_Desktop_Project
 BuildRequires:	ImageMagick-coder-png
 BuildRequires:	ImageMagick-devel
 BuildRequires:	icon-naming-utils >= 0.7.2
+BuildRequires:	librsvg
 BuildRequires:	pkgconfig
 Requires:	tango-icon-theme
 BuildArch:	noarch
