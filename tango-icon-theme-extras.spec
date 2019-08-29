@@ -7,7 +7,7 @@ Summary:	Additional freedesktop.org standard compliant icons
 Summary(pl.UTF-8):	Dodatkowe ikony implementujące standard freedesktop.org
 Name:		tango-icon-theme-extras
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	Creative Commons License (see COPYING)
 Group:		Themes
 Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.gz
@@ -43,6 +43,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post
+%update_icon_cache Tango
+
+%postun
+%update_icon_cache Tango
 
 %files
 %defattr(644,root,root,755)
